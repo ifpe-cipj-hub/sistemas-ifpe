@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .app-hub-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        .app-item {
+            text-align: center;
+            padding: 10px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .app-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .app-item img {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 10px;
+        }
+
+        .app-item a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .app-item a:hover {
+            color: #0078d4;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-hub-container">
+        <div class="app-item">
+            <img src="img\ifpe\acesso.png" alt="Acesso IFPE">
+            <br />
+            <a href="https://acesso.ifpe.edu.br/realms/master/account/#/">Acesso IFPE</a>
+        </div>
+        <div class="app-item">
+            <img src="img\ifpe\cadastro.png" alt="Cadastro IFPE">
+            <br />
+            <a href="https://cadastro.ifpe.edu.br/signup">Cadastro IFPE</a>
+        </div>
+
+        <div class="app-item">
+            <img src="img\ifpe\hesk.png" alt="Suporte TI">
+            <br /> 
+            <a href="https://suporte.ifpe.edu.br/#login">Suporte TI</a>
+        </div>
+
+
+        <div class="app-item">
+            <img src="img\ifpe\fluxo.png" alt="SUAP">
+            <br /> 
+            <a href="https://fluxo.ifpe.edu.br/accounts/login">Fluxo</a>
+        </div>
+
+        <div class="app-item">
+            <img src="img\ifpe\suap.png" alt="SUAP">
+            <br /> 
+            <a href="https://suap.ifpe.edu.br/accounts/login/?next=/">SUAP</a>
+        </div>
+
+        
+        <div class="app-item">
+            <img src="img\ifpe\sei.png" alt="IFPE">
+            <br /> 
+            <a href="https://sei.ifpe.edu.br/sip/login.php?sigla_orgao_sistema=IFPE&sigla_sistema=SEI&infra_url=L3NlaS8=">SEI!</a>
+        </div>
+        <div class="app-item">
+            <img src="img\ifpe\ifpe.png" alt="IFPE">
+            <br /> 
+            <a href="https://portal.ifpe.edu.br/">Portal IFPE</a>
+        </div>
+        <div class="app-item">
+            <img src="img\ifpe\ipojuca_ifpe.png" alt="MATLAB R2016b">
+            <br /> 
+            <a href="https://portal.ifpe.edu.br/ipojuca/">Ipojuca</a>
+        </div>
+
+
+        <div class="app-item">
+            <img src="img\ifpe\qacademico.png" alt="Suporte TI">
+            <br /> 
+            <a href="https://qacademico.ifpe.edu.br/">Q Academico</a>
+        </div>
+
+        <div class="app-item">
+            <img src="img\ifpe\workflow.png" alt="Workflow">
+            <br /> 
+            <a href="https://workflow.ifpe.edu.br/#/login?next=">Workflow</a>
+        </div>
+    </div>
+</body>
+</html>
