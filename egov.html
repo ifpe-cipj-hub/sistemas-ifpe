@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .app-hub-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        .app-item {
+            text-align: center;
+            padding: 10px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .app-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .app-item img {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 10px;
+        }
+
+        .app-item a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .app-item a:hover {
+            color: #0078d4;
+        }
+
+        .subtitle {
+    display: block;
+    color: #777;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    text-transform: none;
+}
+    </style>
+</head>
+<body>
+    
+    <div class="app-hub-container">
+
+
+
+        <!-- ASSINADOR DIGITAL  -->
+        <div class="app-item">
+            <img src="img\ifpe\govbr.png" alt="Assinador Digital">
+            <br />
+            <a target="_blank" href="https://sso.acesso.gov.br/login?client_id=assinador.iti.br&authorization_id=194a7b33ebc">Assinador Digital</a>
+            <span class="subtitle">Assinatura Digital para Documentos</span>
+        </div>
+
+         <!-- Compras Net  -->
+         <div class="app-item">
+            <img src="img\ifpe\comprasnet.png" alt="Compras Net">
+            <br />
+            <a target="_blank" href="https://www.comprasnet.gov.br/seguro/loginPortal.asp">Compras Net</a>
+            <span class="subtitle">Portal de Compras do Governo Federal</span>
+        </div>
+
+        
+        <!-- Central de Atendimento aos Sistemas Estruturantes -->
+        <div class="app-item">
+            <img src="img\ifpe\portaldeservicos.png" alt="Compras Net">
+            <br />
+            <a target="_blank" href="https://portaldeservicos.gestao.gov.br/pt#/">Portal de Serviços</a>
+            <span class="subtitle">Central de Atendimento aos Sistemas Estruturantes</span>
+        </div>
+
+        <!-- HODSERPRO -->
+        <div class="app-item">
+            <img src="img\ifpe\serpro.png" alt="HODSERPRO">
+            <br />
+            <a target="_blank" href="https://hod.serpro.gov.br/a83016cv/">HODSERPRO</a>
+            <span class="subtitle"><i>Host On Demand</i> do Serviço Federal de Processamento de Dados</span>
+        </div>
+
+        
+        <!-- Compras Governamentais   -->
+        <div class="app-item">
+            <img src="img\ifpe\sougov_comprasnet.png" alt="Compras Governamentais">
+            <br />
+            <a target="_blank" href="https://www.comprasgovernamentais.gov.br/">Compras Governamentais</a>
+            <span class="subtitle"> Portal de Compras do Governo Federal </span>
+        </div>
+
+        
+
+        <!-- PAINEL COMPRAS  -->
+            <div class="app-item">
+            <img src="img\ifpe\painel_compras_beta.png" alt="Painel Compras">
+            <br />
+            <a target="_blank" href="http://paineldecompras.economia.gov.br/">Painel Compras</a>
+            <span class="subtitle">Explore as Contratações Públicas do Governo Federal e acompanhe todo o ciclo de Vida do Processo de Compras</span>
+        </div>
+
+
+        <!-- Painel Preços Planejamento  -->
+        <div class="app-item">
+            <img src="img\ifpe\painel_precos.png" alt="Painel Preços Planejamento">
+            <br />
+            <a target="_blank" href="https://paineldeprecos.planejamento.gov.br/">Painel Preços </a>
+            <span class="subtitle">Divulga informações de compras públicas homologadas no Sistema de Compras do Governo Federal</span>
+        </div>
+
+        <!-- PGC  -->
+        <!-- <div class="app-item">
+            <img src="img\ifpe\govbr.png" alt="PGC Planejamento">
+            <br /> 
+            <a target="_blank" href="https://pgc.planejamento.gov.br/login">PGC Planejamento</a>
+            <span class="subtitle"></span>
+        </div> -->
+
+        <!-- Portal Servidor  -->
+        <div class="app-item">
+            <img src="img\ifpe\servidor_publico.png" alt="Portal do Servidor ">
+            <br /> 
+            <a href="https://www.gov.br/servidor/pt-br" target="_blank" >Portal do Servidor</a>
+            <span class="subtitle">Currículo e oportunidades, gestão de pessoas e legislação pessoal, perfil do servidores, notícias e canais de atendimento </span>
+        </div>
+
+        <!-- SDCP -->
+        <div class="app-item">
+            <img src="img\ifpe\scdp.png" alt="SCDP">
+            <br /> 
+            <a href="https://siads.fazenda.gov.br/siadsweb/login" target="_blank" >SCDP</a>
+            <span class="subtitle">Sistema de Concessão de Diárias e Passagens</span>
+        </div>
+
+        <!-- SIADS -->
+        <div class="app-item">
+            <img src="img\ifpe\logo-siads.png" alt="SIADS">
+            <br /> 
+            <a href="https://siads.fazenda.gov.br/siadsweb/login" target="_blank" alt="SIADS" >SIADS</a>
+            <span class="subtitle">Sistema Integrado de Administração de Serviços </span>
+        </div>
+
+        <!-- SIAPANET  -->
+        <div class="app-item">
+            <img src="img\ifpe\siapenet.png" alt="SIAPANET">
+            <br /> 
+            <a href="https://www1.siapenet.gov.br/orgao/Login.do?method=inicio" target="_blank" >SIAPANET</a>
+            <span class="subtitle">Sistema Integrado de Administração de Recursos Humanos</span>
+        </div>
+
+
+        
+
+        
+    </div>
+</body>
+</html>
