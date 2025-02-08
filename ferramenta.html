@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .app-hub-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        .app-item {
+            text-align: center;
+            padding: 10px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .app-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .app-item img {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 10px;
+        }
+
+        .app-item a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .app-item a:hover {
+            color: #0078d4;
+        }
+
+        .subtitle {
+    display: block;
+    color: #777;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    text-transform: none;
+}
+    </style>
+</head>
+<body>
+    
+    <div class="app-hub-container">
+
+        
+        <!-- BPMN - Modelagem de Processos de Negócio  -->
+        <div class="app-item">
+            <img src="img\ifpe\vertical_padrao_ifpe.png" alt="Modelagem de processos de negócio">
+            <br />
+            <a target="_blank" href="https://processos.ifpe.edu.br/">BPMN</a>
+            <span class="subtitle">Modelagem de Processos de Negócio</span>
+        </div>
+
+
+        <!-- PDF - Juntar Separar e Compactar PDFs -->
+        <div class="app-item">
+            <img src="img\ifpe\vertical_padrao_ifpe.png" alt="Juntar Separar e Compactar PDFs">
+            <br /> 
+            <a href="https://pdf.ifpe.edu.br/login" target="_blank" >PDF</a>
+            <span class="subtitle">Juntar Separar e Compactar PDFs</span>
+        </div>
+        
+        <!-- Projetos - Gerenciamento de Projetos -->
+        <div class="app-item">
+            <img src="img\ifpe\vertical_padrao_ifpe.png" alt="Projetos">
+            <br /> 
+            <a href="https://projetos.ifpe.edu.br/" target="_blank" >Projetos</a>
+            <span class="subtitle">Gerenciamento de Projetos</span>
+        </div>
+        
+        
+    </div>
+</body>
+</html>

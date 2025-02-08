@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .app-hub-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        .app-item {
+            text-align: center;
+            padding: 10px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .app-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .app-item img {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 10px;
+        }
+
+        .app-item a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .app-item a:hover {
+            color: #0078d4;
+        }
+
+        .subtitle {
+    display: block;
+    color: #777;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    text-transform: none;
+}
+    </style>
+</head>
+<body>
+    
+    <div class="app-hub-container">
+
+
+
+        <!-- Portal de Serviços do IFPE  -->
+        <div class="app-item">
+            <img src="img\ifpe\vertical_padrao_ifpe.png" alt="Portal de Serviços do IFPE">
+            <br />
+            <a target="_blank" href="http://portaldeservicos.ipojuca.ifpe.edu.br">Portal de Serviços</a>
+            <span class="subtitle">Portal de Serviços do IFPE</span>
+        </div>
+
+
+        <!-- Estudante  -->
+        <div class="app-item">
+            <img src="img\ifpe\vertical_padrao_ifpe.png" alt="Portal de Serviços do IFPE">
+            <br />
+            <a target="_blank" href="http://estudante.ipojuca.ifpe.edu.br">Portal do Estudate</a>
+            <span class="subtitle">Portal de Serviços do Estudante</span>
+        </div>
+
+        <!-- Ensino  -->
+        <div class="app-item">
+            <img src="img\ifpe\vertical_padrao_ifpe.png" alt="Portal de Serviços do IFPE">
+            <br />
+            <a target="_blank" href="http://ensino.ipojuca.ifpe.edu.br">Ensino</a>
+            <span class="subtitle">Portal de Serviços do Ensino</span>
+        </div>
+
+        <!-- Adm  -->
+        <div class="app-item">
+            <img src="img\ifpe\vertical_padrao_ifpe.png" alt="Portal de Serviços do IFPE">
+            <br />
+            <a target="_blank" href="http://adm.ipojuca.ifpe.edu.br">Administrativo</a>
+            <span class="subtitle">Portal de Serviços do Administrativo</span>
+        </div>
+
+        <!-- E-gov  -->
+        <div class="app-item">
+            <img src="img\ifpe\vertical_padrao_ifpe.png" alt="Portal de Serviços do E-gov">
+            <br />
+            <a target="_blank" href="http://egov.ipojuca.ifpe.edu.br">E-gov</a>
+            <span class="subtitle">Portal de Serviços do E-gov</span>
+        </div>
+
+        <!-- PGD  -->
+        <div class="app-item">
+            <img src="img\ifpe\vertical_padrao_ifpe.png" alt="Ferramentas do PGD">
+            <br />
+            <a target="_blank" href="http://pgd.ipojuca.ifpe.edu.br">PGD</a>
+            <span class="subtitle">Ferramentas do PGD</span>
+        </div>
+
+
+        <!-- CGTI  -->
+        <div class="app-item">
+            <img src="img\ifpe\vertical_padrao_ifpe.png" alt="CGTI">
+            <br />
+            <a target="_blank" href="http://cgti.ipojuca.ifpe.edu.br">CGII</a>
+            <span class="subtitle">Coordenação de Gestão de Tecnologia da Informação</span>
+        </div>
+
+
+        <!-- Ferramentas  -->
+        <div class="app-item">
+            <img src="img\ifpe\vertical_padrao_ifpe.png" alt="Ferramenta do IFPE">
+            <br />
+            <a target="_blank" href="http://ferramenta.ipojuca.ifpe.edu.br">Ferramentas</a>
+            <span class="subtitle">Ferramentas do IFPE</span>
+        </div>
+        
+        
+    </div>
+</body>
+</html>
